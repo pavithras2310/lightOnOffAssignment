@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>on-off-task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div>
+        <div class="lightoffDiv">
+            <img id="lightoffImg">
+        </div>
+        <div class="catdiv"> 
+            <img id="catImg">
+        </div>
+        <div id="switchDivId" class="switchDiv rounded">
+            <h4>Switched Off</h4>
+            <input class="rounded off" type="button" name="off" id="off" value="OFF" onclick="switchedOff()"/>
+            <input class="rounded on" type="button" name="on" id="on" value="ON" onclick="switchedOn()"/>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

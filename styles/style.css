@@ -1,0 +1,82 @@
+.switchDiv{
+    background-color: #7C8690;
+    color: white;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 500px;
+    margin-top: 435px;
+}
+.switchedOnOff{
+    border: 1px double black;
+    width: 60px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(177, 5, 5);
+}
+.switchedOnOn{
+    border: 1px double black;
+    width: 60px;
+    background-color: gainsboro;
+    color: white;
+}
+.switchedOffOn{
+    border: 1px double black;
+    width: 60px;
+    background-color: green;
+    color: white;
+}
+.switchedOffOff{
+    border: 1px double black;
+    width: 60px;
+    margin-right: 10px;
+    color: white;
+    background-color:gainsboro;
+}
+body{
+    background-color: black;
+}
+.lightoffImg{
+    margin-left: 520px;
+    margin-right: 300px;
+    width: 10rem;
+    height: 200px;
+    background-size: cover;
+}
+.catImg{
+    margin-left: 470px;
+    margin-right: 300px;
+    width: 15rem;
+    height: 17rem;
+    background-size: cover;
+}
+.off{
+    margin-right: 10px;
+    border: 1px double black;
+    width: 60px;
+}
+.on{
+    border: 1px double black;
+    width: 60px;
+}
+.switchDivOff{
+    margin-top: 10px;
+    background-color: #7C8690;
+    color: white;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 500px;
+}
+.switchDivOn{
+    margin-top: 10px;
+    background-color: #7C8690;
+    color: white;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 500px;
+}
